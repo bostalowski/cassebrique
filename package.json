@@ -1,0 +1,31 @@
+{
+  "name": "cassebrique",
+  "version": "1.0.0",
+  "description": "Mon casse brique",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "format": "prettier --write './src/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bostalowski/cassebrique.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bostalowski/cassebrique/issues"
+  },
+  "homepage": "https://github.com/bostalowski/cassebrique#readme",
+  "devDependencies": {
+    "prettier": "^1.10.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "html-webpack-plugin": "^2.30.1"
+  }
+}
